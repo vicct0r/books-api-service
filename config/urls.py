@@ -23,9 +23,10 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('login', views.login),
-    re_path('registro', views.registro),
-    re_path('test_token', views.test_token),
+    re_path('auth/login', views.login),
+    re_path('auth/registro', views.registro),
+    re_path('auth/test_token', views.test_token),
+    path('api/v1/', include('book.urls'))
 ]
 
 if settings.DEBUG:
