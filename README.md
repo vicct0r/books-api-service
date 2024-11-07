@@ -2,6 +2,9 @@
 
 # Livro-API: Serviço de Livraria Online
 
+## Diagrama de Processo 
+![Books-API](https://github.com/user-attachments/assets/0f49ae6e-a55d-4561-b476-07223ea907f2)
+
 ## Descrição
 
 Este repositório contém a implementação de uma API que tem como objetivo disponibilizar livros específicos para o **projeto de livraria online** em andamento. A API será responsável por fornecer informações sobre os livros, incluindo a capa e o arquivo em formato PDF, utilizando o armazenamento em nuvem da **Amazon S3**.
